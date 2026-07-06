@@ -6,12 +6,12 @@
 
 | รายการ | รายละเอียด |
 |---|---|
-| กลุ่ม | Group XX |
-| ชื่อโครงงาน | [ชื่อระบบภาษาไทย] / [English Project Name] |
-| Case Card | [หมายเลขและชื่อ Case Card ที่อาจารย์มอบหมาย] |
-| Repository URL | [วาง URL GitHub] |
-| ช่องทางสื่อสารหลัก | [เช่น LINE / Discord / Microsoft Teams] |
-| วันประชุมประจำ | [วัน/เวลา] |
+| กลุ่ม | Group 4 |
+| ชื่อโครงงาน | กระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา / Advisor-Appointment |
+| Case Card | Case No.9 / Case Advisor-Appointment |
+| Repository URL | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment |
+| ช่องทางสื่อสารหลัก | LINE / Discord / codeshare |
+| วันประชุมประจำ | พุธ/20.00 |
 
 ## สมาชิกและบทบาท
 
@@ -19,10 +19,10 @@
 
 | รหัสนักศึกษา | ชื่อ-นามสกุล | บทบาทหลัก | รับผิดชอบเริ่มต้น | หลักฐานการทำงานที่คาดหวัง |
 |---|---|---|---|---|
-| [ID] | [ชื่อ] | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
-| [ID] | [ชื่อ] | Requirements Lead | elicitation / backlog / SRS | requirement docs |
-| [ID] | [ชื่อ] | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
-| [ID] | [ชื่อ] | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
+| 68543210004-6 | นาย จิราพัชร อินจันทร์ | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
+| 68543210003-8 | นาย จักรพงศ์ หมื่นไชยศรี | Requirements Lead | elicitation / backlog / SRS | requirement docs |
+| 68543210006-1 | นาย ญาณวุฒิ ชวนอาจ | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
+| 68543210006-1 | นาย ญาณวุฒิ ชวนอาจ | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
 
 ## กติกาทีม
 
