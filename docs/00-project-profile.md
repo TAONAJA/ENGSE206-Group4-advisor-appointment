@@ -4,13 +4,13 @@
 
 | รายการ | รายละเอียด |
 |---|---|
-| ชื่อระบบภาษาไทย | [กรอก] |
-| ชื่อระบบภาษาอังกฤษ | [กรอก] |
-| Case Card | [Case No. / Case Title] |
-| กลุ่ม | [Group XX] |
-| ภาคการศึกษา/ปีการศึกษา | [กรอก] |
-| อาจารย์ผู้สอน | [กรอก] |
-| Repository URL | [กรอก] |
+| ชื่อระบบภาษาไทย | [advisor-appointment] |
+| ชื่อระบบภาษาอังกฤษ | [ระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา] |
+| Case Card | [Case No.9 / Case advisor-appointment] |
+| กลุ่ม | [Group 4] |
+| ภาคการศึกษา/ปีการศึกษา | [ปี2] |
+| อาจารย์ผู้สอน | [ธนิต เกตุแก้ว] |
+| Repository URL | [https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment.git] |
 
 ## 2. Elevator Pitch
 
