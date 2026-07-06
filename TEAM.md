@@ -7,7 +7,7 @@
 | รายการ | รายละเอียด |
 |---|---|
 | กลุ่ม | Group 4 |
-| ชื่อโครงงาน | กระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา / Advisor-Appointment |
+| ชื่อโครงงาน | ระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา / Advisor-Appointment |
 | Case Card | Case No.9 / Case Advisor-Appointment |
 | Repository URL | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment |
 | ช่องทางสื่อสารหลัก | LINE / Discord / codeshare |
