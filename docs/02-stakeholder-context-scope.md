@@ -77,7 +77,7 @@ Source: [Miro Board](https://miro.com/app/board/uXjVH8fhOmU=/)
 ### 3.2 System Context
 ![Stakeholder Map](../diagrams/context/_w02-stakeholder-map.drawio.png)
 
-Source: [`diagrams/context/system-context.drawio`](../diagrams/context/system-context.drawio)
+Source: [`diagrams/context/_w02-stakeholder-map.drawio.xml`](../diagrams/context/_w02-stakeholder-map.drawio.xml)
 
 ### 3.1 System Boundary
 ขอบเขตของระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา ครอบคลุมการค้นหาและแสดงตารางเวลาว่างของอาจารย์, การส่งคำขอนัดหมาย, การตรวจสอบและอนุมัติ/ปฏิเสธ/ขอเลื่อนนัดหมายโดยอาจารย์, การแจ้งเตือนสถานะคำขอ และการบันทึกประวัติการเข้าพบในระดับที่กำหนด 
