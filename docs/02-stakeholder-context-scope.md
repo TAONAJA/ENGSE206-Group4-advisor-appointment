@@ -31,6 +31,7 @@
 ## 2. Stakeholder Map
 
 ![Stakeholder Map](../diagrams/context/jj.png)
+Source: [Miro Board](https://miro.com/app/board/uXjVHFfhOmU=-/)
 
 | Stakeholder / External System | Role / Current work | Needs / Goals | Influence | Interest | Why it matters |
 |---|---|---|---|---|---|
