@@ -1,7 +1,7 @@
 # 02 — Stakeholder, System Context and Scope
 
 > **Week 2 deliverable**  
-> เวอร์ชัน: v0.1 | สถานะ: Draft | วันที่ปรับปรุง: [DD/MM/YYYY]
+> เวอร์ชัน: v0.1 | สถานะ: Draft | วันที่ปรับปรุง: [12/07/2569]
 
 ## 1. Problem Frame (revised)
 
