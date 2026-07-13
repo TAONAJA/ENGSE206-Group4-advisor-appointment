@@ -74,6 +74,11 @@ Source: [Miro Board](https://miro.com/app/board/uXjVH8fhOmU=/)
 * **Concern / risk:** ข้อมูลเหตุผลการเข้าพบซึ่งอาจเป็นความลับส่วนบุคคลรั่วไหล หรือการเชื่อมต่อระบบล็อกอินมหาลัยทำไม่ได้
 * **Information this stakeholder knows:** ข้อจำกัดด้านระบบยืนยันตัวตน (Identity), Access control และ Security baseline ของสถาบัน
 
+### 3.2 System Context
+![Stakeholder Map](../diagrams/context/_w02-stakeholder-map.drawio.png)
+
+Source: [`diagrams/context/system-context.drawio`](../diagrams/context/system-context.drawio)
+
 ### 3.1 System Boundary
 ขอบเขตของระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา ครอบคลุมการค้นหาและแสดงตารางเวลาว่างของอาจารย์, การส่งคำขอนัดหมาย, การตรวจสอบและอนุมัติ/ปฏิเสธ/ขอเลื่อนนัดหมายโดยอาจารย์, การแจ้งเตือนสถานะคำขอ และการบันทึกประวัติการเข้าพบในระดับที่กำหนด 
 
