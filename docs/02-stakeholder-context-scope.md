@@ -7,7 +7,9 @@
 
 | Stakeholder | Category | Needs / Goals | Influence | Engagement Approach |
 |---|---|---|---|---|
-| [Role] | Primary user / Secondary user / External | [กรอก] | สูง/กลาง/ต่ำ | interview / observation / review |
+| นักศึกษา / หัวหน้ากลุ่ม | Primary user / Secondary user / External | ทราบช่วงเวลาว่างของอาจารย์ที่แน่นอน | สูง/กลาง/ต่ำ | interview / observation / review |
+| เจ้าหน้าที่ / ผู้ดูแลระบบ | Primary user / Secondary user / External | เห็นข้อมูลคำขอนัดหมายและเหตุผลการเข้าพบครบถ้วน<br>- จัดการ ยืนยัน หรือเลื่อนตารางนัดหมายได้ง่าย | สูง/กลาง/ต่ำ | interview / observation / review |
+| อาจารย์ / ผู้ดูแลพื้นที่  | Primary user / Secondary user / External | บริหารจัดการตารางเวลาและช่วยอำนวยความสะดวกเมื่อติดภารกิจด่วน | สูง | interview / observation / review |
 
 > แนบรูป stakeholder map ที่ `diagrams/context/` และลิงก์ไว้ที่นี่
 
