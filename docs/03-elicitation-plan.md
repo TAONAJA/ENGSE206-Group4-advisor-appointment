@@ -24,10 +24,6 @@
 
 ## 2. Elicitation Plan
 
-![Elicitation Flow](../diagrams/w03-elicitation-flow.png)
-
-> **Source:** [`w03-elicitation-flow.drawio`](../diagrams/w03-elicitation-flow.drawio)
-
 | ID | Stakeholder / Source | Method | Goal | Expected Evidence | Team Role | Timing | Risk & Mitigation |
 |---|---|---|---|---|---|---|---|
 | EP-01 | อาจารย์ที่ปรึกษา | Semi-structured interview + workflow walkthrough | ตอบ OQ-01, OQ-03 | ขั้นตอนการจัดการตารางเวลาว่าง เงื่อนไขการอนุมัติ/ปฏิเสธนัด และแนวทางจัดการเคสยกเลิก | Member A: interviewer; Member C: note-taker | Week 04 simulation | เสี่ยงได้คำตอบกว้าง → เตรียม follow-up และกรณีศึกษา (เช่น นศ. ขอนัดด่วน) |
