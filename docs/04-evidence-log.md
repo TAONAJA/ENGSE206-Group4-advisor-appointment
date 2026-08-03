@@ -33,6 +33,13 @@
 
 ## 4. Negotiation Record
 
+| Conflict | Options considered | Evaluation criteria | Decision/status | Rationale + evidence | Follow-up |
+|---|---|---|---|---|---|
+| **C-01** | A: ยกเลิก/เลื่อนนัดหมายได้ตลอดเวลา<br>B: ต้องแจ้งล่วงหน้าอย่างน้อย 24 ชั่วโมง | Fairness / Advisor Schedule | Decided (เลือก B) | การยกเลิกกระทันหันทำให้อาจารย์เสียเวลาและนักศึกษาคนอื่นเสียคิว การกำหนดเวลา 24 ชั่วโมงมีความสมดุลและยุติธรรมต่อทุกฝ่าย (E-03, E-04) | ออกแบบเงื่อนไขการยกเลิกนัดหมายและแสดงผลบนหน้าเว็บให้ชัดเจน |
+| **C-02** | A: ส่งผ่าน Email สถาบัน + Web Notification<br>B: เชื่อมต่อ LINE Notify / Official Account | Feasibility / Cost / Scope | Decided (เลือก A) | ทางเลือก B อาจมีความซับซ้อนในการเชื่อมต่อ API และมีค่าใช้จ่าย (Out of Scope) การใช้ Web + Email เป็นมาตรฐานสถาบันและครอบคลุมเพียงพอ (E-05, E-06) | เชื่อมระบบ Mail Service แจ้งเตือนจำลองบนระบบหลังบ้าน |
+| **C-03** | A: ใช้ปฏิทินในระบบจำลองอย่างเดียว<br>B: Sync ข้อมูลกับ Google Calendar อัตโนมัติ | Security / Usability | Provisional (เลือก A) | ทางเลือก B เสี่ยงต่อประเด็น Data Privacy และขัดกับนโยบาย IT ของสถาบัน จึงให้ใช้ปฏิทินภายในระบบเป็นหลักไปก่อน (E-01, E-02) | นำประเด็นนี้ไปสอบถามฝ่าย IT Admin เพิ่มเติมในรอบถัดไป |
+| **C-04** | A: รองรับการเข้าพบแบบ On-site เท่านั้น<br>B: รองรับทั้งแบบ On-site และ Online (Zoom/Teams) | Flexibility / Effectiveness | Decided (เลือก B) | ทางเลือก B ช่วยป้องกันกรณีเกิดเหตุสุดวิสัยและเพิ่มความยืดหยุ่นให้ผู้ใช้งาน โดยให้อาจารย์เป็นผู้ระบุลิงก์หรือช่องทางได้ (E-03, E-04) | เพิ่มตัวเลือกประเภทการนัดหมาย (Dropdown) ในหน้าฟอร์มสร้างคำขอ |
+
 | Date | Participants | Topic | Agreed outcome | Follow-up |
 |---|---|---|---|---|
 | [date] | [names/roles] | [กรอก] | [กรอก] | [กรอก] |
