@@ -40,16 +40,25 @@
 | **C-03** | A: ใช้ปฏิทินในระบบจำลองอย่างเดียว<br>B: Sync ข้อมูลกับ Google Calendar อัตโนมัติ | Security / Usability | Provisional (เลือก A) | ทางเลือก B เสี่ยงต่อประเด็น Data Privacy และขัดกับนโยบาย IT ของสถาบัน จึงให้ใช้ปฏิทินภายในระบบเป็นหลักไปก่อน (E-01, E-02) | นำประเด็นนี้ไปสอบถามฝ่าย IT Admin เพิ่มเติมในรอบถัดไป |
 | **C-04** | A: รองรับการเข้าพบแบบ On-site เท่านั้น<br>B: รองรับทั้งแบบ On-site และ Online (Zoom/Teams) | Flexibility / Effectiveness | Decided (เลือก B) | ทางเลือก B ช่วยป้องกันกรณีเกิดเหตุสุดวิสัยและเพิ่มความยืดหยุ่นให้ผู้ใช้งาน โดยให้อาจารย์เป็นผู้ระบุลิงก์หรือช่องทางได้ (E-03, E-04) | เพิ่มตัวเลือกประเภทการนัดหมาย (Dropdown) ในหน้าฟอร์มสร้างคำขอ |
 
-| Date | Participants | Topic | Agreed outcome | Follow-up |
-|---|---|---|---|---|
-| [date] | [names/roles] | [กรอก] | [กรอก] | [กรอก] |
 
-## 4. New / Revised Insights
+## 5. Requirement Candidates
 
-- [Insight 1]
-- [Insight 2]
+| RC ID | Candidate statement | Rationale | Evidence E-ID | Status | Confidence | Verification / Follow-up |
+|---|---|---|---|---|---|---|
+| **RC-01** | ระบบต้องรองรับการค้นหา ดูตารางช่วงเวลาว่าง (Office Hours) ของอาจารย์ และยื่นคำขอนัดหมาย | เพื่อให้นักศึกษาเห็นช่วงเวลาที่แน่นอน ลดการไปหาแล้วไม่พบอาจารย์ | E-01, E-02 | Candidate | High | ยืนยัน UI ตารางเวลาบนหน้าเว็บ |
+| **RC-02** | ระบบต้องมีแบบฟอร์มบันทึกรายละเอียดคำขอนัดหมาย วัตถุประสงค์ และรองรับการแนบไฟล์เอกสาร | เพื่อให้อาจารย์มีข้อมูลเพียงพอสำหรับการตัดสินใจก่อนถึงวันนัดหมาย | E-03 | Candidate | High | ยืนยันฟอร์มและประเภทไฟล์แนบ |
+| **RC-03** | ระบบต้องมีหน้าจอสำหรับอาจารย์ในการตรวจสอบ และกดตอบรับ ปฏิเสธ หรือเสนอเลื่อนเวลานัดหมาย | เพื่อให้อาจารย์สามารถบริหารจัดการตารางภารกิจได้อย่างมีประสิทธิภาพ | E-04 | Candidate | High | ยืนยัน Workflow หน้าจอจัดการคำขอ |
+| **RC-04** | ระบบต้องมี Validation Rule ตรวจสอบเงื่อนไขการยื่นคำขอนัดหมายล่วงหน้าอย่างน้อย 1 วันทำการ | บังคับใช้เกณฑ์การนัดหมายอย่างเป็นธรรมและไม่กระทบเวลาทำงานของอาจารย์ | E-01, E-03 | Candidate | Medium | ทดสอบเงื่อนไขการกรอกฟอร์ม |
+| **RC-05** | ระบบต้องรองรับการเลือกประเภทการนัดหมายได้ทั้งแบบเข้าพบหน้างาน (On-site) และออนไลน์ | เพิ่มความยืดหยุ่นกรณีผู้ใช้งานติดภารกิจนอกสถาบัน | E-03, E-04 | Candidate | Medium | ยืนยันตัวเลือกประเภทในแบบฟอร์ม |
+| **RC-06** | ระบบต้องรองรับการส่งแจ้งเตือนการเปลี่ยนแปลงสถานะคำขอนัดหมายผ่าน Web Notification และ Email สถาบัน | เพื่อให้ทั้งนักศึกษาและอาจารย์ทราบความคืบหน้าของคำขอได้ทันที | E-05, E-06 | Candidate | High | ยืนยันการเชื่อมต่อ Mail API |
+| **RC-07** | ระบบต้องรองรับการบันทึกประวัติการเข้าพบ (Meeting History) และข้อสรุปการให้คำปรึกษาหลังการนัดหมาย | เพื่อใช้เป็นหลักฐานและข้อมูลอ้างอิงสำหรับการติดตามผลในครั้งถัดไป | E-07, E-08 | Candidate | Medium | ยืนยันฟอร์มบันทึกหลังการเข้าพบ |
+| **RC-08** | ระบบต้องมีหน้า Dashboard แสดงรายงานสถิติการเข้าพบของนักศึกษา และสถิติการยกเลิกนัดหมายสำหรับภาควิชา | เพื่อสนับสนุนการติดตามผลการเรียนและการบริหารจัดการของภาควิชา | E-07, E-08 | Candidate | Medium | ยืนยันรูปแบบตาราง/กราฟบน Dashboard |
 
-## 5. Links to Evidence Files
+## 6. Quality Check
 
-- [Workshop notes](../evidence/week-04/README.md)
-- [Meeting minutes](../project-management/meeting-minutes/README.md)
+- [x] Statement and team interpretation are separated.
+- [x] Every finding has source/tag/context/confidence.
+- [x] Contradictions remain visible; no silent merging.
+- [x] Conflict includes interests, authority and ≥2 options.
+- [x] RCs cite E-IDs and do not claim real-world approval.
+- [x] No personal/confidential data; AI use logged.
