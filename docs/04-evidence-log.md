@@ -3,15 +3,23 @@
 > **Week 4 deliverable**  
 > เก็บข้อเท็จจริงและสิ่งที่ตีความแยกกันอย่างชัดเจน
 
-## 1. Evidence Log
+## 1. Evidence Tags
 
+`CF` case fact · `SN` simulated need · `CT` constraint/rule · `OP` opinion · `AS` assumption · `PS` proposed solution · `OQ` open question
 
-| E-ID | Date | Method | Stakeholder/Source | Observation / Quote / Fact | Interpretation | Related Requirement / Open Question | Evidence File |
+---
+
+## 2. Evidence Log
+
+| E-ID | Source/role/session | Tag | Statement / observed event | Context | Confidence + reason | Related/conflicting E-ID | Follow-up/owner |
 |---|---|---|---|---|---|---|---|
-| **E-01** | 2026-08-01 | Interview | นักศึกษา / ผู้ใช้บริการ | ตารางเวลาอาจารย์ไม่ชัดเจน ทำให้ต้องเสี่ยงเดินไปหาที่ห้องพักแล้วไม่เจออาจารย์ | ระบบควรแสดงตารางช่วงเวลาว่าง (Office Hours) ของอาจารย์แบบ Real-time | **FR-01:** ค้นหาและดูเวลาว่างอาจารย์ / **OQ-01:** ต้อง Sync กับ Google Calendar ของอาจารย์หรือไม่ | `../evidence/week-04/interview-student.md` |
-| **E-02** | 2026-08-01 | Interview | นักศึกษา / ผู้ใช้บริการ | นักศึกษาต้องการระบุหัวข้อ/วัตถุประสงค์ในการเข้าพบ และแนบเอกสารก่อนถึงวันนัด | ระบบต้องรองรับแบบฟอร์มบันทึกรายละเอียดคำขอนัดหมายพร้อมแนบไฟล์ | **FR-02:** ฟอร์มสร้างคำขอนัดหมาย และระบบแนบไฟล์ | `../evidence/week-04/interview-student.md` |
-| **E-03** | 2026-08-02 | Interview | อาจารย์ที่ปรึกษา | อาจารย์อยากอนุมัติ ปฏิเสธ หรือเสนอเปลี่ยนเวลานัดหมายได้เมื่อติดภารกิจด่วน | ระบบต้องมี Workflow สำหรับใหาอาจารย์จัดการคำขอ (Approve / Reject / Reschedule) | **FR-03:** ระบบจัดการและตอบรับคำขอนัดหมาย | `../evidence/week-04/interview-advisor.md` |
-| **E-04** | 2026-08-02 | Interview | อาจารย์ที่ปรึกษา / เจ้าหน้าที่ | การแจ้งเตือนผ่านอีเมลอย่างเดียวอาจทำให้ตกหล่น อยากให้มีแจ้งเตือนผ่านไลน์ หรือแอปพลิเคชัน | ควรมีระบบแจ้งเตือน (Notification) เมื่อมีการอัปเดตสถานะการนัดหมาย | **FR-04:** ระบบการแจ้งเตือนสถานะ / **OQ-02:** ช่องทางหลักที่ใช้แจ้งเตือนคืออะไร | `../evidence/week-04/interview-advisor.md` |
+| **E-01** | S-00 Case Description | CF | ตารางเวลาอาจารย์ไม่ชัดเจน ทำให้นักศึกษาต้องเสี่ยงเดินไปหาที่ห้องพักแล้วไม่พบอาจารย์ | Current process | High (Case) | E-02 | ใช้เป็นข้อมูลตั้งต้น |
+| **E-02** | S-01 นักศึกษา | SN | ผู้แจ้งต้องการดูช่วงเวลาว่าง (Office Hours) ของอาจารย์แบบ Real-time ก่อนทำการนัดหมาย | Appointment | Medium (Simulation) | E-01, E-03 | ยืนยันการเชื่อมต่อตารางเวลาอาจารย์ |
+| **E-03** | S-01 นักศึกษา | SN | ผู้แจ้งต้องการระบุหัวข้อ วัตถุประสงค์ และแนบไฟล์เอกสารประกอบการขอเข้าพบ | Booking Form | Medium (Simulation) | E-02, E-04 | กำหนดขนาดและประเภทไฟล์แนบ |
+| **E-04** | S-02 อาจารย์ที่ปรึกษา | SN | อาจารย์ต้องการอนุมัติ ปฏิเสธ หรือเสนอเลื่อนเวลานัดหมายได้เมื่อติดภารกิจด่วน | Approval Workflow | Medium (Simulation) | E-03, E-05 | ยืนยันเงื่อนไขการเสนอเปลี่ยนเวลา |
+| **E-05** | S-02 อาจารย์ที่ปรึกษา | SN | ต้องการให้ระบบส่งสัญญาณแจ้งเตือนเมื่อมีคำขอนัดหมายใหม่เข้ามา | Notification | Medium (Simulation) | E-04 | ยืนยันช่องทางแจ้งเตือน (Email/Line) |
+| **E-06** | S-01 นักศึกษา | SN | ผู้แจ้งต้องการทราบสถานะการอนุมัติคำขอนัดหมายแบบทันที | Tracking | Medium (Simulation) | E-05 | ยืนยันรูปแบบข้อความแจ้งเตือน |
+| **E-08** | S-04 ผู้ดูแลระบบ | CT | ระบบต้องจำกัดสิทธิ์การเข้าถึงข้อมูลประวัติการนัดหมายตามบทบาทเพื่อความเป็นส่วนตัว | Security & Privacy | High (Policy) | E-07 | ยืนยัน Role & Permission Matrix |
 
 
 ## 2. Issue List / ความขัดแย้งหรือประเด็นที่ต้องตัดสินใจ
