@@ -17,5 +17,5 @@
 | 2026-08-04 | 4 | นายจิราพัชร อินจันทร์ | ดำเนินการจำลองการเจรจาข้อขัดแย้ง C-01 ถึง C-04 และบันทึกผล N-ID | `docs/04-negotiation-record.md` | `../docs/04-negotiation-record.md` | 3.5 hr | Done |
 | 2026-08-04 | 4 | นายญาณวุฒิ ชวนอาจ | วิเคราะห์ Position/Interest และเปรียบเทียบ Options ทางเลือก | `docs/04-negotiation-record.md` | `../docs/04-negotiation-record.md` | 3 hr | Done |
 | 2026-08-11 | 5 | นายจักรพงศ์ หมื่นไชยศรี | ร่าง Backlog v0.1 จัดทำ Acceptance Measure และแยกลิสต์ Open Issues | `docs/05-requirement-backlog.md`, `docs/05-open-questions-issues.md` | `../docs/05-requirement-backlog.md` | 4 hr | Done |
-| 2026-08-11 | 5 | นายจิราพัชร อินจันทร์ | วิเคราะห์ MoSCoW Prioritization Rationale (Value, Risk, Dependency) | `docs/05-prioritization-rationale.md` | `../docs/05-prioritization-rationale.md` | 3.5 hr | Done |
+| 2026-08-11 | 5 | นายจักรพงศ์ หมื่นไชยศรี | วิเคราะห์ MoSCoW Prioritization Rationale (Value, Risk, Dependency) | `docs/05-prioritization-rationale.md` | `../docs/05-prioritization-rationale.md` | 3.5 hr | Done |
 | 2026-08-11 | 5 | นายจิราพัชร อินจันทร์ | จำแนกสถานะ Ready for Week06, Needs Follow-up และ Hold | `docs/05-requirement-backlog.md` | `../docs/05-requirement-backlog.md` | 3 hr | Done |
