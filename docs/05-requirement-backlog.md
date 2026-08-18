@@ -27,7 +27,27 @@
 | **Urgency** | จำเป็นต่อ Core Workflow (ค้นหาเวลา -> ขอเข้าพบ -> อนุมัติ -> แจ้งเตือน) หรือเป็นส่วนบันทึก/รายงานภายหลัง |
 | **Dependency** | ขึ้นอยู่กับนโยบายภาควิชา (No-show/Cancellation), IT Policy (Email/SSO/Calendar API) หรือ Role Matrix |
 
-## 3. Requirement Backlog v0.1
+## 3. Functional Requirements
+
+| ID | Requirement Statement | Source / Stakeholder | Priority | Acceptance Measure | Status |
+|---|---|---|---|---|---|
+| **FR-01** | ระบบต้องแสดงช่วงเวลาว่าง (Office Hours) และสถานะพร้อมให้เข้าพบของอาจารย์ที่ปรึกษา | E-01, E-02 / นักศึกษา, อาจารย์ที่ปรึกษา | Must | ตารางเวลาของอาจารย์แสดงผลสถานะว่าง/ไม่ว่างได้ถูกต้องตามปฏิทิน และอัปเดตสถานะทันทีเมื่อมีรายการจอง | Draft |
+| **FR-02** | ระบบต้องให้นักศึกษาส่งคำขอนัดหมาย โดยระบุวัตถุประสงค์ รายชื่อผู้เข้าพบ (เดี่ยว/กลุ่ม) และแนบไฟล์เอกสารประกอบได้ | E-03 / นักศึกษา | Must | นักศึกษากรอกข้อมูลครบตาม Required fields แล้วกดส่งคำขอสำเร็จ ระบบบันทึกไฟล์แนบ (PDF/Docx ไม่เกิน 10MB) เข้าสู่ระบบ | Draft |
+| **FR-03** | ระบบต้องให้อาจารย์ที่ปรึกษาสามารถอนุมัติ ปฏิเสธ หรือเสนอวันและเวลานัดหมายใหม่ (Reschedule) พร้อมระบุเหตุผลได้ | E-04 / อาจารย์ที่ปรึกษา | Must | อาจารย์กดเลือกสถานะคำขอได้ถูกต้อง โดยกรณีปฏิเสธหรือขอเลื่อนเวลาต้องบังคับกรอกเหตุผลก่อนกดยืนยัน | Draft |
+| **FR-04** | ระบบต้องส่งข้อความแจ้งเตือนเมื่อมีการสร้างคำขอใหม่หรือมีการเปลี่ยนแปลงสถานะคำขอนัดหมาย | E-05, E-06 / นักศึกษา, อาจารย์ที่ปรึกษา | Should | ส่ง Email แจ้งเตือนไปยัง Email สถาบัน และแสดง Alert บน Web Notification ภายใน 1 นาทีหลังสถานะเปลี่ยน | Draft |
+| **FR-05** | ระบบต้องรองรับการเลือกรูปแบบการเข้าพบทั้งแบบ On-site (ระบุห้อง/สถานที่) และ Online (แนบลิงก์การประชุม) | E-03, E-04 / นักศึกษา, อาจารย์ที่ปรึกษา | Should | ในหน้ารายละเอียดการนัดหมายแสดงสถานที่หรือลิงก์ห้องประชุม (เช่น Google Meet/MS Teams) ให้นักศึกษาเปิดดูได้ถูกต้อง | Draft |
+| **FR-06** | ระบบต้องรองรับการบันทึกสรุปผลการเข้าพบของอาจารย์ และจัดทำรายงานสถิติการนัดหมายภาพรวมของภาควิชา | E-08 / อาจารย์ที่ปรึกษา, เจ้าหน้าที่ภาควิชา | Could | อาจารย์สามารถบันทึกข้อความสรุปหลังการพบได้ และเจ้าหน้าที่สามารถออกรายงานสรุปยอดการนัดหมายรายภาคการศึกษาได้ | Draft |
+
+## 4. Non-functional Requirements
+
+| ID | Quality Attribute | Requirement Statement | Measure / Criterion | Priority | Status |
+|---|---|---|---|---|---|
+| **NFR-01** | Security / Privacy | ระบบต้องจำกัดสิทธิ์การเข้าถึงข้อมูลคำขอ วัตถุประสงค์การเข้าพบ และประวัติการนัดหมายตามบทบาท (Role-based Access Control) | นักศึกษาทั่วไปต้องไม่สามารถเปิดดูข้อมูลคำขอนัดหมายของผู้อื่นได้ และสิทธิ์แก้ไขถูกจำกัดตาม Role Matrix 100% | Must | Draft |
+| **NFR-02** | Usability | ระบบต้องถูกออกแบบให้นักศึกษาสามารถค้นหาเวลาว่างและสร้างคำขอนัดหมายได้สะดวกและรวดเร็ว | นักศึกษาทำรายการค้นหาช่วงเวลาและกดส่งคำขอนัดหมายสำเร็จได้ภายในไม่เกิน 4 หน้าจอ/ขั้นตอน | Should | Draft |
+| **NFR-03** | Performance | ระบบต้องสามารถประมวลผลและแสดงผลตารางเวลาว่างของอาจารย์ได้อย่างรวดเร็ว | หน้าตารางแสดงผลเวลาว่างของอาจารย์โหลดเสร็จสิ้นภายในเวลาไม่เกิน 3 วินาที ในสภาวะเครือข่ายปกติ | Should | Draft |
+| **NFR-04** | Integrity / Business Rule | ระบบต้องควบคุมเงื่อนไขการยกเลิกหรือขอเลื่อนนัดหมายล่วงหน้าตามเกณฑ์ที่กำหนด | ปิดกั้นไม่ให้นักศึกษากดยกเลิกหรือขอเลื่อนคำขอนัดหมายที่มีกำหนดการเข้าพบน้อยกว่า 24 ชั่วโมงล่วงหน้า | Must | Draft |
+
+## 5. Requirement Backlog v0.1
 
 | Req ID | Source RC | Evidence / Need Trace | Requirement Statement | Type | Priority | Rationale | Status | Open Question | Week06 Use |
 |---|---|---|---|---|---|---|---|---|---|
@@ -42,7 +62,7 @@
 | **ISSUE-ADV-01** | C-03 | E-01, E-02 -> N-03 | ยังไม่รองรับการ Sync ตารางเวลากับ Google Calendar ส่วนตัวภายนอกแบบอัตโนมัติ | Technical Dependency / Constraint | **Won't yet** | มีความเสี่ยงด้าน Data Privacy และข้อจำกัดนโยบาย IT Admin สถาบัน (ให้ใช้ internal calendar ไปก่อน) | **Hold** | นโยบายการอนุญาตใช้งาน OAuth / Open API ของมหาวิทยาลัยในอนาคต | Follow-up only |
 | **ISSUE-ADV-02** | C-02 | E-05, E-06 -> N-02 | ยังไม่รองรับการส่งแจ้งเตือนผ่าน LINE Notify หรือ Push Notification บนแอปมือถือ | Out of Scope / Issue | **Won't yet** | มีค่าใช้จ่ายภายนอกและความซับซ้อน API ซึ่งเกินขอบเขตโครงการ (Out of Scope) | **Hold** | งบประมาณหรือนโยบายแอปพลิเคชันส่วนกลางของสถาบัน | Follow-up only |
 
-## 4. Priority Summary
+## 6. Priority Summary
 
 | Priority | Count | Requirement IDs | เหตุผลรวม |
 |---|---:|---|---|
@@ -51,7 +71,7 @@
 | **Could** | 1 | FR-ADV-06 | มีประโยชน์ต่อการติดตามประวัติของภาควิชา แต่สามารถพัฒนาเสริมหลังจาก Core Workflow เสร็จสิ้น |
 | **Won't yet** | 2 | ISSUE-ADV-01, ISSUE-ADV-02 | เป็นข้อจำกัดทางเทคนิค นโยบายความปลอดภัย หรือ Out of Scope ห้ามยกระดับเป็น Requirement ในเฟสนี้ |
 
-## 5. Status Summary: Ready / Needs Follow-up / Hold
+## 7. Status Summary: Ready / Needs Follow-up / Hold
 
 | Status | Requirement IDs | สิ่งที่ต้องทำต่อในสัปดาห์ถัดไป |
 |---|---|---|
@@ -59,7 +79,7 @@
 | **Needs Follow-up** | FR-ADV-02, BR-ADV-01, NFR-ADV-01, FR-ADV-06 | ยืนยัน Required/Optional Fields, ร่าง Role & Permission Matrix, ยืนยันข้อยกเว้นกฎ 24 ชม. กับ Stakeholder |
 | **Hold** | ISSUE-ADV-01, ISSUE-ADV-02 | บันทึกไว้เป็น Technical Limitation / Out of Scope Issue โดยยังไม่นำไปออกแบบหรือเขียน Code |
 
-## 6. Review Checklist
+## 8. Review Checklist
 
 - [x] ทุก requirement มี Source RC หรือ Evidence/Conflict source อ้างอิงชัดเจน
 - [x] ทุก requirement อ้างอิง Traceability (E-ID / N-ID / C-ID)
@@ -67,3 +87,15 @@
 - [x] Priority (MoSCoW) มี Rationale รองรับจาก Value, Risk, Urgency และ Dependency
 - [x] ประเด็นทางเทคนิคภายนอก (เช่น LINE Notify, Google Calendar Sync) ไม่ถูกยกระดับเป็น Requirement โดยไม่มีหลักฐานอนุมัติ
 - [x] มีระบุทิศทางการนำไปใช้ใน Week 06 (Week06 Use) สำหรับรายการที่พร้อม
+
+## 9. Week06 Handoff
+
+Week06 ควรเริ่มจาก requirement ที่พร้อมก่อน:
+
+| Week06 artefact | Input ที่เหมาะสม |
+|---|---|
+| **User Story** | FR-01, FR-04 |
+| **Use Case** | FR-01, FR-02 เป็น Main Flow; FR-03 เป็น Operational Flow |
+| **Acceptance Criteria** | NFR-04 (BR-ADV-01) และ FR-02 หลังยืนยัน required fields |
+| **Quality Scenario** | NFR-01 หลังยืนยัน Role & Permission Matrix |
+| **Extension / Alternate Flow** | FR-03 (กรณีปฏิเสธ/เลื่อนนัด) และ FR-05 (On-site vs Online) |
