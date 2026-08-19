@@ -66,7 +66,7 @@
 - **Approved / Reviewed By:**
   - **Instructor:** อาจารย์ ธนิต เกตุแก้ว (ผู้ตรวจทานและกำกับมาตรฐานรายวิชา ENGSE206)
   - **Development Team (ENGSE206-Group4):**
-    - นายจักรพงศ์ หมื่นไชยศรี (68543210003-8) — Requirements Engineer & Note-taker
+    - นายจักรพงศ์ หมื่นไชยศรี (68543210003-8) — Note-taker
     - นายจิราพัชร อินจันทร์ (68543210004-6) — Quality & Evidence Checker
     - นายญาณวุฒิ ชวนอาจ (68543210006-1) — Facilitator & System Analyst
 - **Scope Baseline Statement:** ระบบครอบคลุม Core Workflow การขอนัดหมายอาจารย์ที่ปรึกษาภายในภาควิชาบน Web Application โดยใช้ระบบยืนยันตัวตนจำลองและการแจ้งเตือนผ่าน Web + Email สถาบัน
