@@ -53,9 +53,9 @@
 
 | Member | Role (Facilitator/Auditor/Checker/Scribe/Timekeeper) | Evidence (commit permalink) |
 |---|---|---|
-| นายจักรพงศ์ หมื่นไชยศรี (68543210003-8) | Scribe / Requirements Engineer | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/commit/964f795 |
-| นายจิราพัชร อินจันทร์ (68543210004-6) | Auditor / Quality & Evidence Checker | |
-| นายญาณวุฒิ ชวนอาจ (68543210006-1) | Lead Facilitator / System Analyst | |
+| นายจักรพงศ์ หมื่นไชยศรี (68543210003-8) | Scribe / Requirements Engineer | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/commits/main?author=ShinosakiTanaka |
+| นายจิราพัชร อินจันทร์ (68543210004-6) | Auditor / Quality & Evidence Checker | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/commits/main?author=Jiraphat-Inchan |
+| นายญาณวุฒิ ชวนอาจ (68543210006-1) | Lead Facilitator / System Analyst | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/commits/main?author=TAONAJA |
 
 ## 6. Gap / Open Questions (ยกไปถาม/ทำต่อใน Week 6)
 
