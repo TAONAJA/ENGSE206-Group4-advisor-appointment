@@ -4,7 +4,7 @@
 
 ---
 
-## สมาชิกคนที่ 1: นายจักรพงศ์ หมื่นไชยศรี (Requirements Engineer & Note-taker)
+## สมาชิกคนที่ 1: นายจักรพงศ์ หมื่นไชยศรี (Note-taker)
 
 ## Student Information
 - **Name:** นายจักรพงศ์ หมื่นไชยศรี
@@ -32,7 +32,7 @@
 
 ---
 
-## สมาชิกคนที่ 2: นายจิราพัชร อินจันทร์ (Quality & Evidence Checker)
+## สมาชิกคนที่ 2: นายจิราพัชร อินจันทร์ (Evidence checker / Timekeeper)
 
 ## Student Information
 - **Name:** นายจิราพัชร อินจันทร์
@@ -60,7 +60,7 @@
 
 ---
 
-## สมาชิกคนที่ 3: นายญาณวุฒิ ชวนอาจ (Facilitator & System Analyst)
+## สมาชิกคนที่ 3: นายญาณวุฒิ ชวนอาจ (Presenter / Facilitator)
 
 ## Student Information
 - **Name:** นายญาณวุฒิ ชวนอาจ
