@@ -61,10 +61,9 @@
 
 > บันทึกใน `docs/08-validation-traceability.md` — ห้ามลบ requirement ทิ้งเฉย ๆ
 
-- [ ] **OQ-W05-01:** ข้อมูล Required Fields ขั้นต่ำในฟอร์มขอนัดหมาย และประเภท/ขนาดไฟล์แนบสูงสุด (PDF/Docx $\le$ 10MB)[cite: 1, 3]
-- [ ] **OQ-W05-02:** ข้อยกเว้นของ Business Rule กฎ 24 ชั่วโมงในกรณีเหตุสุดวิสัย (เช่น ป่วยกะทันหัน)[cite: 1, 3]
-- [ ] **OQ-W05-04:** โครงสร้าง Role & Permission Matrix ฉบับสมบูรณ์สำหรับการควบคุมสิทธิ์ CRUD ระดับหน้าจอ[cite: 1, 3]
-
+- [ ] **OQ-W05-01:** ข้อมูล Required Fields ขั้นต่ำในฟอร์มขอนัดหมาย และประเภท/ขนาดไฟล์แนบสูงสุด (PDF/Docx $\le$ 10MB)
+- [ ] **OQ-W05-02:** ข้อยกเว้นของ Business Rule กฎ 24 ชั่วโมงในกรณีเหตุสุดวิสัย (เช่น ป่วยกะทันหัน)
+- [ ] **OQ-W05-04:** โครงสร้าง Role & Permission Matrix ฉบับสมบูรณ์สำหรับการควบคุมสิทธิ์ CRUD ระดับหน้าจอ
 ## 7. Final Submission Snapshot
 
 | Field | Value |
