@@ -46,7 +46,7 @@
 | 1 | docs/01–05 ครบและอัปเดตล่าสุด | ☑ | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/tree/baseline-v1.0/docs |
 | 2 | ทุก Must ลากถึง Evidence + Stakeholder | ☑ | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/docs/08-validation-traceability.md#3-traceability-matrix-end-to-end-traceability |
 | 3 | FR/NFR ทุกข้อวัด/ทดสอบได้ ไม่กำกวม | ☑ | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/docs/08-validation-traceability.md#2-requirements-quality-checklist |
-| 4 | ผ่าน Peer Cross-Review 1 รอบ | ☑ | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/feedback/cross-review-form.md |
+| 4 | ผ่าน Peer Cross-Review 1 รอบ | ☑ | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/evidence/week-05/PeerCross-Review.md |
 | 5 | commit + tag baseline-v1.0 แล้ว | ☑ | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/releases/tag/baseline-v1.0 |
 
 ## 5. Team Contribution (บทบาทในกิจกรรม)
