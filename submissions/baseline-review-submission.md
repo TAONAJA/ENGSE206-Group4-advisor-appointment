@@ -24,10 +24,10 @@
 |---:|---|---|---|:--:|
 | 1 | Backlog ที่แก้แล้ว | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/docs/05-requirement-backlog.md | นายญาณวุฒิ ชวนอาจ | ☑ |
 | 2 | Traceability + Gap | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/docs/08-validation-traceability.md | นายญาณวุฒิ ชวนอาจ | ☑ |
-| 3 | Health Check + Cross-Review | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/feedback/cross-review-form.md | นายจิราพัชร อินจันทร์ | ☑ |
+| 3 | Health Check + Cross-Review | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/tree/baseline-v1.0/evidence/week-05/ | นายจิราพัชร อินจันทร์ | ☑ |
 | 4 | Decision log | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/project-management/decision-log.md | นายจักรพงศ์ หมื่นไชยศรี | ☑ |
 | 5 | Team worklog | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/project-management/team-worklog.md | นายจิราพัชร อินจันทร์ | ☑ |
-| 6 | Reflection รายคน | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/feedback/15-individual-reflection.md | ทุกคนในทีม | ☑ |
+| 6 | Reflection รายคน | https://github.com/TAONAJA/ENGSE206-Group4-advisor-appointment/blob/baseline-v1.0/feedback/15-individual-reflection.md | นายจักรพงศ์ | ☑ |
 
 ## 3. Traceability Highlights — 3 Must (ลิงก์เจาะจงบรรทัด)
 
