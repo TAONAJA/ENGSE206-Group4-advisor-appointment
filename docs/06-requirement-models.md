@@ -149,7 +149,7 @@
 
 - Use Case Diagram: ![Use Case Diagram](../diagrams/use-case/usecase.drawio.png)  
   *(แสดง Actors: นักศึกษา, อาจารย์ที่ปรึกษา, เจ้าหน้าที่ภาควิชา, ระบบแจ้งเตือน พร้อมความสัมพันธ์ Include/Extend)*
-- **Activity Diagram:** [`diagrams/activity/appointment-workflow-activity.png`](../diagrams/activity/appointment-workflow-activity.png)  
+- **Activity Diagram:** [`diagrams/activity/appointment-workflow-activity.png`](../diagrams/activity/Activity Diagram.drawio.png)  
   *(แสดง Swimlane: นักศึกษา, อาจารย์ และระบบ ตั้งแต่ค้นหาเวลา ส่งคำขอ การตัดสินใจ 24 ชม. จนถึงแจ้งเตือนผล)*
 - **Domain Model / ER Concept:** [`diagrams/domain-model/appointment-domain-model.png`](../diagrams/domain-model/appointment-domain-model.png)  
   *(แสดง Entity: User, AdvisorProfile, TimeSlot, AppointmentRequest, Attachment, Notification)*
