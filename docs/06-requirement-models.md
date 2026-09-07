@@ -147,15 +147,28 @@
 
 ## 5. Requirement Models / Diagrams
 
-- Use Case Diagram: ![Use Case Diagram](../diagrams/use-case/usecase.drawio.png)  
-  *(แสดง Actors: นักศึกษา, อาจารย์ที่ปรึกษา, เจ้าหน้าที่ภาควิชา, ระบบแจ้งเตือน พร้อมความสัมพันธ์ Include/Extend)*
+## 5. Requirement Models / Diagrams
+
+- Use Case Diagram:
+  <p align="center">
+    <img src="../diagrams/use-case/usecase.drawio.png" alt="Use Case Diagram" />
+    <br>
+    <em>(แสดง Actors: นักศึกษา, อาจารย์ที่ปรึกษา, เจ้าหน้าที่ภาควิชา, ระบบแจ้งเตือน พร้อมความสัมพันธ์ Include/Extend)</em>
+  </p>
+
 - **Activity Diagram:**
+  <p align="center">
+    <img src="../diagrams/activity/Activity-Diagram.drawio.png" alt="Activity Diagram" />
+    <br>
+    <em>(แสดง Swimlane: นักศึกษา, อาจารย์ และระบบ ตั้งแต่ค้นหาเวลา ส่งคำขอ การตัดสินใจ 24 ชม. จนถึงแจ้งเตือนผล)</em>
+  </p>
 
-![Activity Diagram](../diagrams/activity/Activity-Diagram.drawio.png)
-
-*(แสดง Swimlane: นักศึกษา, อาจารย์ และระบบ ตั้งแต่ค้นหาเวลา ส่งคำขอ การตัดสินใจ 24 ชม. จนถึงแจ้งเตือนผล)*
-- **Domain Model / ER Concept:** [`diagrams/domain-model/appointment-domain-model.png`](../diagrams/domain-model/appointment-domain-model.png)  
-  *(แสดง Entity: User, AdvisorProfile, TimeSlot, AppointmentRequest, Attachment, Notification)*
+- **Domain Model / ER Concept:**
+  <p align="center">
+    <img src="../diagrams/domain-model/appointment-domain-model.png" alt="Domain Model / ER Concept" />
+    <br>
+    <em>(แสดง Entity: User, AdvisorProfile, TimeSlot, AppointmentRequest, Attachment, Notification)</em>
+  </p>
   
 ---
 
