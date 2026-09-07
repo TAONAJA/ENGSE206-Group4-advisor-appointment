@@ -147,7 +147,7 @@
 
 ## 5. Requirement Models / Diagrams
 
-- **Use Case Diagram:** [`diagrams/use-case/advisor-appointment-uc.png`](../diagrams/use-case/advisor-appointment-uc.png)  
+- Use Case Diagram: ![Use Case Diagram](../diagrams/use-case/usecase.drawio.png)  
   *(แสดง Actors: นักศึกษา, อาจารย์ที่ปรึกษา, เจ้าหน้าที่ภาควิชา, ระบบแจ้งเตือน พร้อมความสัมพันธ์ Include/Extend)*
 - **Activity Diagram:** [`diagrams/activity/appointment-workflow-activity.png`](../diagrams/activity/appointment-workflow-activity.png)  
   *(แสดง Swimlane: นักศึกษา, อาจารย์ และระบบ ตั้งแต่ค้นหาเวลา ส่งคำขอ การตัดสินใจ 24 ชม. จนถึงแจ้งเตือนผล)*
