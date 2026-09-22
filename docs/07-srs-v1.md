@@ -1,7 +1,7 @@
 # 07 — Software Requirements Specification (SRS) v1
 
 > **Week 7 deliverable**  
-> เวอร์ชัน: v1.0 | สถานะ: Baseline Candidate | วันที่: 22/09/2569
+> เวอร์ชัน: v1.0 | สถานะ: Baseline Candidate | วันที่: 21/09/2569
 
 ## Document Control
 
@@ -145,4 +145,4 @@
 
 | Reviewer | Date | Result | Key Feedback |
 |---|---|---|---|
-| ธนิต เกตุแก้ว (อาจารย์ผู้สอน) | 22/09/2569 | Baseline Candidate | สรุปโครงสร้างความต้องการครบถ้วน เชื่อมโยง Evidence และ Use Case ชัดเจน ควบคุมขอบเขตระบบได้เหมาะสมสำหรับ 1 ภาคการศึกษา |
+| ธนิต เกตุแก้ว (อาจารย์ผู้สอน) | 21/09/2569 | Baseline Candidate | สรุปโครงสร้างความต้องการครบถ้วน เชื่อมโยง Evidence และ Use Case ชัดเจน ควบคุมขอบเขตระบบได้เหมาะสมสำหรับ 1 ภาคการศึกษา |
