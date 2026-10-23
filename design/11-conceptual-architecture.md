@@ -39,8 +39,8 @@ System Context แสดงระบบนัดหมายเข้าพบ�
 
 ### รูปภาพ Container Diagram (C4 Level 2)
 
-> *(เว้นว่างสำหรับวางภาพไดอะแกรมจาก draw.io: `diagrams/architecture/container-c4-level2.png`)*  
-> ![Container Diagram Placeholder](../diagrams/architecture/container-c4-level2.png)
+> *(เว้นว่างสำหรับวางภาพไดอะแกรมจาก draw.io: `diagrams/architecture/container-lv2.png`)*  
+> ![Container Diagram Placeholder](../diagrams/architecture/container-lv2.png)
 
 ---
 
