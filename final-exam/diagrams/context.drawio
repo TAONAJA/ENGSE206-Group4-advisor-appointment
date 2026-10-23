@@ -1,0 +1,193 @@
+﻿<mxfile host="65bd71144e">
+    <diagram name="หน้า-1" id="Advisor-Appointment-Context-After">
+        <mxGraphModel dx="400" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="main-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" value="&lt;font style=&quot;font-size: 22px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;ผลลัพธ์: Context diagram ของระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="35" width="900" x="160" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="act01-icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#1e3d59;strokeColor=#1e3d59;" vertex="1">
+                    <mxGeometry height="50" width="25" x="30" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="act01-label" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-size: 11px; color: #666;&quot;&gt;ACT-01&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;นักศึกษา (ผู้ขอเข้าพบ / หัวหน้ากลุ่ม)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="180" x="60" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="act02-icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#1e3d59;strokeColor=#1e3d59;" vertex="1">
+                    <mxGeometry height="50" width="25" x="30" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="act02-label" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-size: 11px; color: #666;&quot;&gt;ACT-02&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Advisor&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;อาจารย์ที่ปรึกษา&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="180" x="60" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="act03-icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#1e3d59;strokeColor=#1e3d59;" vertex="1">
+                    <mxGeometry height="50" width="25" x="30" y="445" as="geometry"/>
+                </mxCell>
+                <mxCell id="act03-label" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-size: 11px; color: #666;&quot;&gt;ACT-03&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Staff&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;เจ้าหน้าที่ภาควิชา&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="180" x="60" y="445" as="geometry"/>
+                </mxCell>
+                <mxCell id="act04-icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#1e3d59;strokeColor=#1e3d59;" vertex="1">
+                    <mxGeometry height="50" width="25" x="30" y="555" as="geometry"/>
+                </mxCell>
+                <mxCell id="act04-label" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-size: 11px; color: #666;&quot;&gt;ACT-04&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;System Administrator&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; color: #444;&quot;&gt;ผู้ดูแลระบบ IT&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="180" x="60" y="555" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act01-send" edge="1" parent="1" source="act01-label" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;exitX=1.002;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="195" as="sourcePoint"/>
+                        <mxPoint x="450" y="195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act01-send" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontSize=10;" value="ส่ง: ขอนัดหมาย · แนบไฟล์เอกสาร · ยกเลิกนัด" vertex="1">
+                    <mxGeometry height="20" width="220" x="230" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act01-recv" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;entryX=0.992;entryY=0.792;entryDx=0;entryDy=0;entryPerimeter=0;" target="act01-label">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="220" as="sourcePoint"/>
+                        <mxPoint x="280" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act01-recv" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="รับ: ตารางเวลาว่าง (Office Hours) · สถานะคำขอ" vertex="1">
+                    <mxGeometry height="20" width="220" x="240" y="222" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act02-send" edge="1" parent="1" source="act02-label" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;exitX=0.999;exitY=0.206;exitDx=0;exitDy=0;exitPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="325" as="sourcePoint"/>
+                        <mxPoint x="450" y="325" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act02-send" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontSize=10;" value="ส่ง: กำหนด Office Hours · อนุมัติ/ปฏิเสธ/เลื่อนนัด" vertex="1">
+                    <mxGeometry height="20" width="220" x="240" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act02-recv" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;entryX=0.987;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;" target="act02-label">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="355" as="sourcePoint"/>
+                        <mxPoint x="280" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act02-recv" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="รับ: รายการคำขอนัดหมาย · สรุปตารางงาน" vertex="1">
+                    <mxGeometry height="20" width="200" x="250" y="358" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act03-send" edge="1" parent="1" source="act03-label" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;exitX=1;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="445" as="sourcePoint"/>
+                        <mxPoint x="450" y="445" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act03-send" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontSize=10;" value="ส่ง: ตรวจสอบข้อมูลจับคู่ นศ.-อาจารย์" vertex="1">
+                    <mxGeometry height="20" width="200" x="250" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act03-recv" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;entryX=0.998;entryY=0.79;entryDx=0;entryDy=0;entryPerimeter=0;" target="act03-label">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="475" as="sourcePoint"/>
+                        <mxPoint x="280" y="475" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act03-recv" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="รับ: รายงานสถิติภาพรวมการเข้าพบ" vertex="1">
+                    <mxGeometry height="20" width="200" x="260" y="478" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act04-send" edge="1" parent="1" source="act04-label" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;exitX=1;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="555" as="sourcePoint"/>
+                        <mxPoint x="450" y="555" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act04-send" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontSize=10;" value="ส่ง: กำหนดสิทธิ์ (RBAC) · ตั้งค่าระบบ" vertex="1">
+                    <mxGeometry height="20" width="200" x="260" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-act04-recv" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=1.5;endArrow=classic;endFill=1;entryX=0.998;entryY=0.79;entryDx=0;entryDy=0;entryPerimeter=0;" target="act04-label">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="585" as="sourcePoint"/>
+                        <mxPoint x="280" y="585" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-act04-recv" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="รับ: ผลการตั้งค่าและระบบความปลอดภัย" vertex="1">
+                    <mxGeometry height="20" width="200" x="260" y="588" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-container" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1e3d59;strokeWidth=2;fillColor=#ffffff;" vertex="1">
+                    <mxGeometry height="510" width="270" x="450" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#1e3d59;fillColor=#1e3d59;fontColor=#ffffff;align=center;verticalAlign=middle;" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;Advisor Appointment System&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; margin-top: 2px; color: rgb(208, 225, 253);&quot;&gt;ระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="65" width="270" x="450" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-body" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" value="&lt;div style=&quot;font-size: 12px; color: #1e3d59;&quot;&gt;&lt;b&gt;ระบบรับผิดชอบ (Core)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; line-height: 20px; color: #222; margin-top: 6px;&quot;&gt;• &lt;b&gt;จัดการเวลาว่าง&lt;/b&gt; (Office Hours) ของอาจารย์&lt;br&gt;• &lt;b&gt;ส่งคำขอนัดหมาย&lt;/b&gt; พร้อมระบุวัตถุประสงค์และแนบไฟล์&lt;br&gt;• &lt;b&gt;จัดการวงจรสถานะ&lt;/b&gt; (Approve/Reject/Reschedule)&lt;br&gt;• &lt;b&gt;บังคับใช้กฎ 24 ชั่วโมง&lt;/b&gt; สำหรับการยกเลิกนัด (BR-ADV-01)&lt;br&gt;• &lt;b&gt;ควบคุมสิทธิ์การเข้าถึง&lt;/b&gt; ตามบทบาท (RBAC)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="190" width="260" x="455" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-outofscope" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d0d7de;fillColor=#f6f8fa;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;arcSize=6;" value="&lt;div style=&quot;font-size: 11px; color: rgb(87, 96, 106);&quot;&gt;&lt;b&gt;ไม่อยู่ในความรับผิดชอบ (Out of Scope / Hold)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px; line-height: 16px; color: rgb(110, 119, 129); margin-top: 4px;&quot;&gt;• Sync ปฏิทิน Google Calendar แบบอัตโนมัติ (ISSUE-ADV-01)&lt;br&gt;• ส่งข้อความแจ้งเตือนผ่าน LINE Notify (ISSUE-ADV-02)&lt;br&gt;• ระบบสร้างลิงก์ประชุม Zoom/Teams อัตโนมัติ&lt;br&gt;• ระบบลงทะเบียนเรียน / ระบบ LMS ของมหาวิทยาลัย&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="135" width="250" x="460" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext01-box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=1.5;strokeDasharray=4 3;fillColor=#ffffff;align=center;verticalAlign=top;spacingTop=10;arcSize=8;" value="&lt;div style=&quot;font-size: 11px; color: #b45f06;&quot;&gt;&lt;b&gt;EXT-01&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Identity Service (SSO)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px; color: #666;&quot;&gt;ระบบยืนยันตัวตนสถาบัน&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="95" width="210" x="910" y="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext01-badge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;fontColor=#b45f06;fontSize=10;arcSize=50;align=center;" value="Core · ตรวจสอบบัญชีผู้ใช้และ Role" vertex="1">
+                    <mxGeometry height="22" width="180" x="925" y="235" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext02-box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;strokeWidth=1.5;strokeDasharray=4 3;fillColor=#ffffff;align=center;verticalAlign=top;spacingTop=10;arcSize=8;" value="&lt;div style=&quot;font-size: 11px; color: #555;&quot;&gt;&lt;b&gt;EXT-02&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Mail Service (SMTP)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px; color: #666;&quot;&gt;บริการส่งอีเมลแจ้งเตือนสถาบัน&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="95" width="210" x="910" y="345" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext02-badge" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;fillColor=#f5f5f5;fontColor=#555555;fontSize=10;arcSize=50;align=center;" value="Core / Supporting · ส่ง Email แจ้งเตือน" vertex="1">
+                    <mxGeometry height="22" width="190" x="920" y="405" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-ext01-send" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;strokeWidth=1.5;strokeDasharray=4 3;endArrow=classic;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="200" as="sourcePoint"/>
+                        <mxPoint x="910" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-ext01-send" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontSize=10;" value="ระบบ ส่ง: ขอตรวจสอบบัญชีและสิทธิ์ผู้ใช้ [HTTPS]" vertex="1">
+                    <mxGeometry height="20" width="220" x="725" y="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-ext01-recv" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;strokeWidth=1.5;strokeDasharray=4 3;endArrow=classic;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="230" as="sourcePoint"/>
+                        <mxPoint x="720" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-ext01-recv" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="ระบบ รับ: User ID · Role Claim" vertex="1">
+                    <mxGeometry height="20" width="180" x="740" y="235" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-ext02-send" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#888888;strokeWidth=1.5;strokeDasharray=4 3;endArrow=classic;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="370" as="sourcePoint"/>
+                        <mxPoint x="910" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-ext02-send" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontSize=10;" value="ระบบ ส่ง: คำสั่งส่ง Email แจ้งเตือนสถานะคำขอ" vertex="1">
+                    <mxGeometry height="20" width="220" x="725" y="345" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-ext02-recv" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#888888;strokeWidth=1.5;strokeDasharray=4 3;endArrow=classic;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="400" as="sourcePoint"/>
+                        <mxPoint x="720" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lbl-ext02-recv" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" value="ระบบ รับ: สถานะการส่ง Email สำเร็จ/ล้มเหลว" vertex="1">
+                    <mxGeometry height="20" width="210" x="725" y="407" as="geometry"/>
+                </mxCell>
+                <mxCell id="lgd-c4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;fontColor=#333;" value="&lt;b&gt;C4 ระดับ 1 — System Context&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="25" width="170" x="230" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="lgd-core-line" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1e3d59;strokeWidth=2;endArrow=classic;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="682" as="sourcePoint"/>
+                        <mxPoint x="450" y="682" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lgd-core-text" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;fontColor=#333;" value="Core (ใช้ในระบบนัดหมายอาจารย์ที่ปรึกษา)" vertex="1">
+                    <mxGeometry height="25" width="210" x="455" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="lgd-tbd-line" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#d6b656;strokeWidth=1.5;strokeDasharray=4 3;endArrow=classic;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="682" as="sourcePoint"/>
+                        <mxPoint x="710" y="682" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lgd-tbd-text" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;fontColor=#333;" value="ระบบภายนอก (SSO/Mail)" vertex="1">
+                    <mxGeometry height="25" width="150" x="715" y="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="lgd-source" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=10;fontColor=#777;" value="ที่มา: System Context และ Stakeholders · SRS W07 (Advisor Appointment System — Case No.9)" vertex="1">
+                    <mxGeometry height="25" width="800" x="260" y="700" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
