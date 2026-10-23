@@ -37,7 +37,7 @@
 |  |  |  |  |
 | นาย จักรพงศ์ หมื่นไชยศรี | 68543210003-8 | G3, G4 และ Design Spine | design/10-design-strategy.md |
 | นาย จิราพัชร อินจันทร์ | 68543210004-6 | G1, G2 และ SRS trace | docs/07-srs-v1.md |
-
+| นาย ญาณวุฒิ ชวนอาจ | 68543210006-1 | G5, G6 และประสานงานเอกสาร | final-exam/final-exam-group-answer.docx |
 
 ## รับรอง
 
