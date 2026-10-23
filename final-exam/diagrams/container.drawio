@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="RWlrQOXyOQvG8ECfRztC">
+    <mxGraphModel dx="2049" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="ACT-01&#xa;นักศึกษา (Student)" vertex="1">
+          <mxGeometry height="60" width="30" x="380" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="ACT-02&#xa;อาจารย์ที่ปรึกษา (Advisor)" vertex="1">
+          <mxGeometry height="60" width="30" x="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="ACT-03&#xa;ผู้ดูแลระบบ (System Admin)" vertex="1">
+          <mxGeometry height="60" width="30" x="820" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="system-boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=15;fontStyle=1;fontSize=14;" value="ระบบนัดหมายเข้าพบอาจารย์ที่ปรึกษา [Software System]" vertex="1">
+          <mxGeometry height="860" width="690" x="320" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="container-web" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2a2a2a;fontColor=#ffffff;strokeColor=#666666;align=center;verticalAlign=top;" value="&lt;b&gt;Web Application&lt;/b&gt;&lt;br&gt;[Container: Responsive Web App - React.js]&lt;br&gt;Environment: Client Browser (Untrusted Environment)&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left; padding-left: 10px;&quot;&gt;&lt;br&gt;• ฟอร์มค้นหา Office Hours และส่งคำขอนัดหมาย (FR-01, FR-02)&lt;br&gt;&lt;br&gt;• หน้าติดตามสถานะและรับการแจ้งเตือน (FR-04)&lt;br&gt;&lt;br&gt;• คอนโซลจัดการตารางเวลาสำหรับอาจารย์ (FR-03)&lt;br&gt;&lt;br&gt;• หน้าเรียกดูประวัติ Audit Log ย้อนหลัง (FR-06)&lt;br&gt;&lt;br&gt;• [NFR-01: ทำรายการเสร็จสิ้นภายใน ≤ 3 ขั้นตอน]&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="630" x="350" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="container-api" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2a2a2a;fontColor=#ffffff;strokeColor=#666666;align=center;verticalAlign=top;" value="&lt;b&gt;API Application&lt;/b&gt;&lt;br&gt;[Container: Server App - Node.js + Express]&lt;br&gt;Environment: Server-side (Trusted/Team Controlled)&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left; padding-left: 10px;&quot;&gt;&lt;br&gt;• ศูนย์กลางบังคับใช้ Business Rules (กฎยกเลิกนัด 24 ชม. BR-01)&lt;br&gt;&lt;br&gt;• ควบคุม State Transition &amp;amp; บันทึกประวัติการเปลี่ยนสถานะ&lt;br&gt;&lt;br&gt;• ตรวจสอบและควบคุมสิทธิ์ RBAC ทุก Request (NFR-01)&lt;br&gt;&lt;br&gt;• บันทึก Audit Log &amp;amp; สั่งส่ง Notification (FR-04, FR-06)&lt;br&gt;&lt;br&gt;• [ประสิทธิภาพ: ตอบสนองภายใน ≤ 2-3s]&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="630" x="350" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="container-db" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#2a2a2a;fontColor=#ffffff;strokeColor=#666666;align=center;verticalAlign=top;" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;[Container: Relational Database - PostgreSQL]&lt;br&gt;Environment: Database Server (Trusted Environment)&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left; padding-left: 10px;&quot;&gt;&lt;br&gt;• จัดเก็บข้อมูลคำขอนัดหมาย &amp;amp; ตาราง Office Hours&lt;br&gt;&lt;br&gt;• จัดเก็บข้อมูลผู้ใช้งาน &amp;amp; สิทธิ์&lt;br&gt;&lt;br&gt;• บันทึก Audit Log แบบ Append-only&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;• [Single Source of Truth] [ACID Transaction]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="520" x="405" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="ext-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;EXT-01: Identity Service&lt;/b&gt;&lt;br&gt;[External System Core Boundary]&lt;br&gt;ยืนยันตัวตนผู้ใช้ (SSO) &amp;amp; ส่ง Role Claim]" vertex="1">
+          <mxGeometry height="70" width="260" x="1100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ext-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;EXT-02: Notification Service&lt;/b&gt;&lt;br&gt;[External System Extension]&lt;br&gt;ส่งอีเมลแจ้งเตือนสถาบัน &amp;amp; Web Notification" vertex="1">
+          <mxGeometry height="70" width="260" x="1240" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ext-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;EXT-03: File / Storage Service&lt;/b&gt;&lt;br&gt;[External System Core]&lt;br&gt;จัดเก็บไฟล์แนบประกอบคำขอ (.pdf, .docx) &amp;amp; คืนค่า URL" vertex="1">
+          <mxGeometry height="70" width="260" x="1190" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="c-a1" edge="1" parent="1" source="actor-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="container-web" value="ใช้งานผ่านเว็บเบราว์เซอร์ [HTTPS]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-a2" edge="1" parent="1" source="actor-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="container-web" value="จัดการตารางเวลาผ่านเว็บ [HTTPS]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-a3" edge="1" parent="1" source="actor-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="container-web" value="จัดการ RBAC / ดู Audit Log [HTTPS]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-web-api" edge="1" parent="1" source="container-web" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="container-api" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;เรียก REST API (สร้างคำขอ, ติดตามสถานะ, อัปโหลดงาน, Audit Log) [REST/JSON, HTTPS]&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-api-db" edge="1" parent="1" source="container-api" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="container-db" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;อ่าน/เขียนข้อมูลรายการ &amp;amp; สถานะ &amp;amp; ประวัติ [SQL/Transaction]&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-ext1" edge="1" parent="1" source="container-api" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="ext-1" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;ส่ง ขอขอยืนยันตัวตน / ตรวจสอบสิทธิ์ [HTTPS]&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.4622" y="-84" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ext2" edge="1" parent="1" source="container-api" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.6;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="ext-2" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;ส่ง ข้อความแจ้งเตือน [HTTPS]&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.1532" y="12" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-ext3" edge="1" parent="1" source="container-api" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;fontSize=10;" target="ext-3" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;ส่ง Upload รูปภาพ / ไฟล์ [HTTPS]&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
